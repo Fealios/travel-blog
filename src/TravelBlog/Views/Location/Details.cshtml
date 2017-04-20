@@ -1,0 +1,13 @@
+﻿@model TravelBlog.Models.Location
+
+<html>
+<head>
+    <title>Location - Details</title>
+</head>
+<body>
+    <h2>Details</h2>
+    <hr />
+    Location: @Html.DisplayFor(model => model.location_name)
+    <p>@Html.ActionLink("Back to list", "Index")</p>
+</body>
+</html>
